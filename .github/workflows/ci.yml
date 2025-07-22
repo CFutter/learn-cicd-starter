@@ -19,5 +19,4 @@ jobs:
           go-version: "1.23.0"
 
       - name: go code tests
-        run: go test ./...
-        run: go test -cover
+        run: go test -v -coverprofile=coverage.out ./...
