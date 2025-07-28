@@ -22,4 +22,4 @@ jobs:
         run: go test -cover ./...
         
       - name: formatting
-        uses: test -z $(go fmt ./...)
+        run: test -z $(go fmt ./...)
