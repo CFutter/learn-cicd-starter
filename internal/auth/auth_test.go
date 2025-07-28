@@ -1,12 +1,12 @@
 package auth
 
 import (
-	"testing"
 	"net/http"
+	"testing"
 )
 
-func TestAuth (t *testing.T){
-saulAccessToken := "someValidAccessToken123" // Define a dummy access token for testing
+func TestAuth(t *testing.T) {
+	saulAccessToken := "someValidAccessToken123" // Define a dummy access token for testing
 
 	// --- Test Case 1: Correct API Key format ---
 	headerOne := make(http.Header)
